@@ -247,6 +247,64 @@ One config file → Everything you need!
 
 ---
 layout: center
+class: text-center
+---
+
+# Plot Twist: Spec Quality Matters! ⚠️
+
+<div class="pt-4">
+<div class="text-red-700 dark:text-red-400 text-2xl mb-4">
+Orval needs <strong>minimum standard</strong> OpenAPI specs
+</div>
+
+<div class="grid grid-cols-2 gap-4 pt-4">
+<div class="bg-red-100/70 dark:bg-red-900/30 p-8 rounded-lg">
+
+<div class="text-4xl mb-4 text-red-600 dark:text-red-300">💔</div>
+<div class="text-red-700 dark:text-red-400 font-bold text-xl mb-4">The Problem</div>
+<div class="text-red-800 dark:text-red-100 text-left">
+- Missing property descriptions<br>
+- Incomplete schema definitions<br>
+- No example values<br>
+- Inconsistent data types
+</div>
+
+</div>
+<div class="bg-amber-100/70 dark:bg-amber-900/30 p-8 rounded-lg">
+
+<div class="text-4xl mb-4 text-amber-600 dark:text-amber-300">💥</div>
+<div class="text-amber-700 dark:text-amber-400 font-bold text-xl mb-4">The Impact</div>
+<div class="text-amber-800 dark:text-amber-100 text-left">
+- Zod schema generation fails<br>
+- Type definitions incomplete<br>
+- Runtime validation broken<br>
+- <strong>2 of our specs</strong> needed fixing
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="py-8 bg-blue-100/60 dark:bg-blue-900/20 p-4 rounded-lg max-w-4xl mx-auto mt-4">
+<div class="text-blue-700 dark:text-blue-400 font-bold">💡 Lesson Learned:</div> 
+<div class="text-gray-600 dark:text-slate-300">Backend teams need to maintain <strong>quality OpenAPI documentation</strong> for automation to work</div>
+</div>
+
+<!--
+🎯 Reality check: Show spec quality requirements
+💡 Automation depends on input quality
+📝 Speaker notes:
+- Just when we thought Orval would solve everything, we hit reality
+- Orval needs well-structured OpenAPI specs to work properly
+- If your backend team's swagger is incomplete, you're in trouble
+- We discovered this with 2 out of our 4 API specs
+- Missing descriptions, incomplete schemas, no examples = broken generation
+- Had to work with backend teams to improve their spec quality
+- This is actually a good thing - forces better API documentation standards
+-->
+
+---
+layout: center
 ---
 
 <div class="w-full px-12">
