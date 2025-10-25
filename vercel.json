@@ -3,6 +3,6 @@
   "outputDirectory": "out",
   "devCommand": "npm run dev",
   "installCommand": "npm install",
-  "framework": "nextjs",
+  "framework": null,
   "regions": ["iad1"]
 }
