@@ -79,6 +79,23 @@ npm run dev
 
 ## 🎨 Theme Features
 
+### Color Strategy
+
+**Your branding (use orange):**
+```markdown
+<!-- Your name - use gradient -->
+<div class="gradient-text">Keyvan Mahmoudi</div>
+
+<!-- Or solid orange -->
+<span class="text-primary">keyvanmahmoudi.com</span>
+```
+
+**Content (use semantic colors):**
+- Blue for information/technical content
+- Green for success/solutions
+- Amber for warnings/challenges  
+- Red for problems/errors
+
 ### Text Styling
 
 Use markdown emphasis for orange text (not italic):
