@@ -60,13 +60,21 @@ npm init -y
 npm install -D @slidev/cli @slidev/theme-default playwright-chromium
 ```
 
-### 3. Create `slides.md`
+### 3. Add Favicon Files
+
+```bash
+mkdir public
+cp ../../app/favicon.ico ../../app/favicon-16x16.png ../../app/favicon-32x32.png public/
+```
+
+### 4. Create `slides.md`
 
 ```markdown
 ---
 theme: default
 fonts:
   sans: 'Work Sans'
+favicon: '/favicon.ico'
 ---
 
 <style src="../../theme/style.css"></style>
@@ -82,7 +90,7 @@ By <span class="gradient-text">Keyvan Mahmoudi</span>
 Your content here...
 ```
 
-### 4. Add Build Scripts to `package.json`
+### 5. Add Build Scripts to `package.json`
 
 ```json
 {
@@ -94,7 +102,7 @@ Your content here...
 }
 ```
 
-### 5. Register in Metadata
+### 6. Register in Metadata
 
 Edit `/lib/presentations.ts`:
 
@@ -111,7 +119,7 @@ export const presentations: Presentation[] = [
 ];
 ```
 
-### 6. Test Locally
+### 7. Test Locally
 
 ```bash
 # From presentation directory
