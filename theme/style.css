@@ -1,0 +1,412 @@
+/**
+ * Keyvan Mahmoudi - Custom Slidev Theme
+ * Matches keyvanmahmoudi.com branding
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  /* Brand Colors - Matching keyvanmahmoudi.com */
+  --slidev-theme-primary: #ea580c;
+  --slidev-theme-primary-light: #f97316;
+  --slidev-theme-primary-dark: #dc2626;
+
+  /* Background Colors */
+  --slidev-theme-background: #ffffff;
+  --slidev-theme-background-alt: #fafafa;
+  --slidev-theme-foreground: #0a0a0a;
+
+  /* Text Colors */
+  --slidev-theme-text: #171717;
+  --slidev-theme-text-muted: #737373;
+  --slidev-theme-text-light: #a3a3a3;
+
+  /* Accent Colors */
+  --slidev-theme-accent: #f5f5f5;
+  --slidev-theme-border: #e5e5e5;
+  --slidev-theme-code-bg: #f5f5f5;
+
+  /* Shadows */
+  --slidev-theme-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1),
+    0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --slidev-theme-shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+    0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+  /* Border Radius */
+  --slidev-theme-radius: 0.625rem;
+
+  /* Font Family */
+  --slidev-font-sans: 'Work Sans', system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, sans-serif;
+  --slidev-font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Monaco,
+    Consolas, 'Liberation Mono', 'Courier New', monospace;
+
+  /* Font Sizes */
+  --slidev-font-size-base: 1rem;
+  --slidev-font-size-lg: 1.125rem;
+  --slidev-font-size-xl: 1.25rem;
+  --slidev-font-size-2xl: 1.5rem;
+  --slidev-font-size-3xl: 1.875rem;
+  --slidev-font-size-4xl: 2.25rem;
+  --slidev-font-size-5xl: 3rem;
+}
+
+/* Dark Mode Colors */
+html.dark {
+  --slidev-theme-background: #0a0a0a;
+  --slidev-theme-background-alt: #171717;
+  --slidev-theme-foreground: #fafafa;
+
+  --slidev-theme-text: #e5e5e5;
+  --slidev-theme-text-muted: #a3a3a3;
+  --slidev-theme-text-light: #737373;
+
+  --slidev-theme-accent: #262626;
+  --slidev-theme-border: rgba(255, 255, 255, 0.1);
+  --slidev-theme-code-bg: #1a1a1a;
+}
+
+/* Global Styles */
+html,
+body {
+  font-family: var(--slidev-font-sans);
+  background: var(--slidev-theme-background);
+  color: var(--slidev-theme-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: var(--slidev-theme-foreground);
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--slidev-font-size-5xl);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: var(--slidev-font-size-4xl);
+  margin-bottom: 1.25rem;
+}
+
+h3 {
+  font-size: var(--slidev-font-size-3xl);
+  margin-bottom: 1rem;
+}
+
+/* Links */
+a {
+  color: var(--slidev-theme-primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--slidev-theme-primary-dark);
+  text-decoration: underline;
+}
+
+/* Code Blocks */
+code {
+  font-family: var(--slidev-font-mono);
+  background: var(--slidev-theme-code-bg);
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.25rem;
+  font-size: 0.875em;
+  font-weight: 500;
+}
+
+pre {
+  background: #1a1a1a !important;
+  border: 1px solid var(--slidev-theme-border);
+  border-radius: var(--slidev-theme-radius);
+  padding: 1.5rem;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* Lists */
+ul,
+ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+  color: var(--slidev-theme-text-muted);
+}
+
+li::marker {
+  color: var(--slidev-theme-primary);
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--slidev-theme-primary);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: var(--slidev-theme-text-muted);
+}
+
+/* Strong/Bold */
+strong {
+  font-weight: 600;
+  color: var(--slidev-theme-foreground);
+}
+
+/* Emphasis/Italic */
+em {
+  color: var(--slidev-theme-primary);
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* Horizontal Rules */
+hr {
+  border: none;
+  border-top: 2px solid var(--slidev-theme-border);
+  margin: 2rem 0;
+}
+
+/* Images */
+img {
+  border-radius: var(--slidev-theme-radius);
+  max-width: 100%;
+  height: auto;
+}
+
+/* Custom Classes */
+
+/* Highlighted text */
+.highlight {
+  background: linear-gradient(120deg, #ea580c 0%, #ea580c 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+  background-position: 0 88%;
+  padding: 0 0.25rem;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #ea580c 0%, #dc2626 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Badge/Tag */
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: var(--slidev-theme-accent);
+  border: 1px solid var(--slidev-theme-border);
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--slidev-theme-text);
+}
+
+/* Card */
+.card {
+  background: var(--slidev-theme-background-alt);
+  border: 1px solid var(--slidev-theme-border);
+  border-radius: var(--slidev-theme-radius);
+  padding: 1.5rem;
+  box-shadow: var(--slidev-theme-shadow);
+}
+
+/* Grid Layouts */
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+/* Flex utilities */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Text utilities */
+.text-primary {
+  color: var(--slidev-theme-primary);
+}
+
+.text-muted {
+  color: var(--slidev-theme-text-muted);
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Margin utilities */
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+/* Cover Slide Styling */
+.slidev-layout.cover {
+  background: linear-gradient(135deg, #fafafa 0%, #ffffff 100%);
+}
+
+html.dark .slidev-layout.cover {
+  background: linear-gradient(135deg, #0a0a0a 0%, #171717 100%);
+}
+
+.slidev-layout.cover h1 {
+  background: linear-gradient(135deg, #ea580c 0%, #dc2626 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* End Slide */
+.slidev-layout.end {
+  background: linear-gradient(135deg, #ea580c 0%, #dc2626 100%);
+  color: white;
+}
+
+.slidev-layout.end h1,
+.slidev-layout.end h2,
+.slidev-layout.end h3,
+.slidev-layout.end p {
+  color: white;
+}
+
+/* Speaker Info */
+.speaker-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.speaker-info img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid var(--slidev-theme-primary);
+}
+
+.speaker-details h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.speaker-details p {
+  margin: 0.25rem 0;
+  color: var(--slidev-theme-text-muted);
+}
+
+/* Footer */
+.slidev-layout footer {
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+  right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+  color: var(--slidev-theme-text-muted);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Two-column layout */
+.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+/* Callout boxes */
+.callout {
+  padding: 1.5rem;
+  border-radius: var(--slidev-theme-radius);
+  margin: 1.5rem 0;
+  border-left: 4px solid var(--slidev-theme-primary);
+  background: var(--slidev-theme-accent);
+}
+
+.callout-warning {
+  border-left-color: #f59e0b;
+  background: #fffbeb;
+}
+
+html.dark .callout-warning {
+  background: rgba(245, 158, 11, 0.1);
+}
+
+.callout-success {
+  border-left-color: #10b981;
+  background: #ecfdf5;
+}
+
+html.dark .callout-success {
+  background: rgba(16, 185, 129, 0.1);
+}
+
+.callout-info {
+  border-left-color: #3b82f6;
+  background: #eff6ff;
+}
+
+html.dark .callout-info {
+  background: rgba(59, 130, 246, 0.1);
+}

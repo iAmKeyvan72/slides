@@ -7,11 +7,13 @@ info: |
 highlighter: shiki
 lineNumbers: true
 fonts:
-  sans: 'Inter'
+  sans: 'Work Sans'
   mono: 'JetBrains Mono'
 layout: cover
 class: text-gray-900 dark:text-white
 ---
+
+<style src="../theme/style.css"></style>
 
 # From Manual to Velocity
 ## The Spec-Driven Way
