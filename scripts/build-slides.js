@@ -50,7 +50,7 @@ presentations.forEach((name) => {
       console.log(`  📥 Installing dependencies...`);
       execSync('npm install', {
         cwd: presentationDir,
-        stdio: 'ignore',
+        stdio: 'inherit', // Show output for debugging
       });
     }
 
@@ -58,7 +58,7 @@ presentations.forEach((name) => {
     console.log(`  🔨 Building slides...`);
     execSync(`npx slidev build --base /slides/${name}/`, {
       cwd: presentationDir,
-      stdio: 'ignore',
+      stdio: 'inherit', // Show output for debugging
     });
 
     // Copy built files to public directory
