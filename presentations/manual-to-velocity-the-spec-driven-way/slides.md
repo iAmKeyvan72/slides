@@ -11,6 +11,7 @@ fonts:
   mono: 'JetBrains Mono'
 layout: cover
 class: text-gray-900 dark:text-white
+favicon: '/favicon.ico'
 ---
 
 <style src="../../theme/style.css"></style>
