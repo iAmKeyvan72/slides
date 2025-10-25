@@ -56,7 +56,7 @@ presentations.forEach((name) => {
 
     // Build the presentation with correct base path
     console.log(`  🔨 Building slides...`);
-    execSync(`npx slidev build --base /slides/${name}/`, {
+    execSync(`npx @slidev/cli build --base /slides/${name}/`, {
       cwd: presentationDir,
       stdio: 'inherit', // Show output for debugging
     });
