@@ -15,7 +15,7 @@ export const presentations: Presentation[] = [
       'Learn how to accelerate development velocity using spec-driven development with Orval and OpenAPI.',
     date: '2024',
     tags: ['OpenAPI', 'TypeScript', 'Developer Experience', 'API'],
-    thumbnail: '/images/presentations/manual-to-velocity.jpg', // Add your custom image
+    // thumbnail: '/images/presentations/manual-to-velocity.jpg', // Uncomment and add your image path
   },
   // Add more presentations here as you create them
 ];
