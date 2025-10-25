@@ -12,9 +12,10 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const presentation = getPresentation(params.slug);
+  const { slug } = await params;
+  const presentation = getPresentation(slug);
 
   if (!presentation) {
     return {
@@ -28,12 +29,13 @@ export async function generateMetadata({
   };
 }
 
-export default function PresentationPage({
+export default async function PresentationPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const presentation = getPresentation(params.slug);
+  const { slug } = await params;
+  const presentation = getPresentation(slug);
 
   if (!presentation) {
     notFound();
