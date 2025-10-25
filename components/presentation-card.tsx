@@ -1,6 +1,7 @@
 'use client';
 
 import { Calendar, Presentation } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { Badge } from '@/components/ui/badge';
 import {
@@ -20,12 +21,21 @@ export function PresentationCard({ presentation }: PresentationCardProps) {
   return (
     <Link href={`/${presentation.slug}`}>
       <Card className="h-full overflow-hidden transition-all hover:shadow-lg hover:scale-[1.02] p-0">
-        {/* Presentation Icon Header */}
+        {/* Thumbnail or Icon Header */}
         <div className="relative h-48 w-full overflow-hidden bg-gradient-to-br from-orange-100 to-red-100 dark:from-orange-950 dark:to-red-950 flex items-center justify-center">
-          <Presentation
-            className="w-24 h-24 text-orange-600 dark:text-orange-400"
-            strokeWidth={1.5}
-          />
+          {presentation.thumbnail ? (
+            <Image
+              src={presentation.thumbnail}
+              alt={presentation.title}
+              fill
+              className="object-cover transition-transform hover:scale-110"
+            />
+          ) : (
+            <Presentation
+              className="w-24 h-24 text-orange-600 dark:text-orange-400"
+              strokeWidth={1.5}
+            />
+          )}
         </div>
 
         <CardHeader>

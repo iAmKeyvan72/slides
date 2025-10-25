@@ -102,7 +102,16 @@ Your content here...
 }
 ```
 
-### 6. Register in Metadata
+### 6. Add Thumbnail Image (Optional)
+
+Create a thumbnail image (1200x630px recommended) and save it:
+
+```bash
+# Add your image to the presentations images folder
+cp my-thumbnail.jpg ../../public/images/presentations/my-awesome-talk.jpg
+```
+
+### 7. Register in Metadata
 
 Edit `/lib/presentations.ts`:
 
@@ -114,12 +123,15 @@ export const presentations: Presentation[] = [
     description: 'A great presentation about...',
     date: '2025',
     tags: ['Technology', 'Development'],
+    thumbnail: '/images/presentations/my-awesome-talk.jpg', // Optional: your custom image
   },
   // ... other presentations
 ];
 ```
 
-### 7. Test Locally
+> **Note**: If you don't provide a thumbnail, the card will show a default presentation icon.
+
+### 8. Test Locally
 
 ```bash
 # From presentation directory

@@ -4,7 +4,7 @@ export interface Presentation {
   description: string;
   date: string;
   tags: string[];
-  thumbnail?: string;
+  thumbnail?: string; // Path to thumbnail image (e.g., '/images/presentations/my-talk.jpg')
 }
 
 export const presentations: Presentation[] = [
@@ -15,6 +15,7 @@ export const presentations: Presentation[] = [
       'Learn how to accelerate development velocity using spec-driven development with Orval and OpenAPI.',
     date: '2024',
     tags: ['OpenAPI', 'TypeScript', 'Developer Experience', 'API'],
+    thumbnail: '/images/presentations/manual-to-velocity.jpg', // Add your custom image
   },
   // Add more presentations here as you create them
 ];
