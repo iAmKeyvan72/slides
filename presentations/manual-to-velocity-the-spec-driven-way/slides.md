@@ -13,7 +13,7 @@ layout: cover
 class: text-gray-900 dark:text-white
 ---
 
-<style src="../theme/style.css"></style>
+<style src="../../theme/style.css"></style>
 
 # From Manual to Velocity
 ## The Spec-Driven Way

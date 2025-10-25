@@ -1,11 +1,36 @@
 {
-  "name": "my-presentations",
+  "name": "slides-keyvanmahmoudi",
   "version": "1.0.0",
-  "description": "Collection of technical presentations by Keyvan Mahmoudi",
+  "description": "Slidev presentations hosted on slides.keyvanmahmoudi.com",
+  "private": true,
   "scripts": {
-    "dev:orval": "cd orval-spec-driven && npm run dev",
-    "build:orval": "cd orval-spec-driven && npm run build",
-    "export:orval": "cd orval-spec-driven && npm run export"
+    "dev": "next dev",
+    "build": "npm run build:slides && next build",
+    "build:slides": "node scripts/build-slides.js",
+    "start": "next start",
+    "lint": "next lint",
+    "dev:presentation": "cd presentations/manual-to-velocity-the-spec-driven-way && npm run dev"
+  },
+  "dependencies": {
+    "@tailwindcss/container-queries": "^0.1.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.548.0",
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.0.0"
   },
   "keywords": [
     "presentations",
