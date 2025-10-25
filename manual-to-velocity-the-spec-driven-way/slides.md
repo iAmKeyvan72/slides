@@ -28,7 +28,7 @@ class: text-gray-900 dark:text-white
   <div class="text-xl text-gray-600 dark:text-slate-300">
     Presented by
   </div>
-  <div class="text-3xl font-bold text-blue-600 dark:text-cyan-400 pt-2">
+  <div class="text-3xl font-bold gradient-text pt-2">
     Keyvan Mahmoudi
   </div>
 </div>
