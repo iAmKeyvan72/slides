@@ -9,6 +9,15 @@ export interface Presentation {
 
 export const presentations: Presentation[] = [
   {
+    slug: 'manual-to-velocity-the-spec-driven-way-v2',
+    title: 'From Manual to Velocity: The Spec-Driven Way (v2)',
+    description:
+      'Transform weeks of manual work into seconds with Orval. A complete automation journey from Backend APIs to Frontend, featuring real-world BFF implementation, authentication with mutators, and the power of spec-driven development.',
+    date: '2025',
+    tags: ['OpenAPI', 'TypeScript', 'Developer Experience', 'API', 'Orval', 'React Query', 'NestJS'],
+    // thumbnail: '/images/presentations/manual-to-velocity-v2.jpg', // Uncomment and add your image path
+  },
+  {
     slug: 'manual-to-velocity-the-spec-driven-way',
     title: 'Manual to Velocity: The Spec-Driven Way',
     description:

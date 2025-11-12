@@ -1,0 +1,25 @@
+{
+  "name": "manual-to-velocity-the-spec-driven-way-v2",
+  "version": "2.0.0",
+  "description": "From Manual to Velocity: The Spec-Driven Way - Enhanced Version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "slidev slides.md",
+    "build": "slidev build --base /slides/manual-to-velocity-the-spec-driven-way-v2/",
+    "export": "slidev export --format pdf"
+  },
+  "keywords": [],
+  "author": "Keyvan Mahmoudi",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@slidev/cli": "^52.1.0",
+    "@slidev/theme-seriph": "^0.25.0",
+    "playwright-chromium": "^1.55.0"
+  },
+  "dependencies": {
+    "@slidev/theme-default": "^0.25.0"
+  }
+}
+
