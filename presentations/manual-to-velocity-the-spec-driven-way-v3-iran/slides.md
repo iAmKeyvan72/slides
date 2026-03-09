@@ -103,43 +103,64 @@ Feel free to connect with me on LinkedIn after this!
 layout: center
 ---
 
-<div class="grid grid-cols-2 gap-12 items-center px-8">
-  <div class="space-y-6">
-    <div class="text-xs font-bold uppercase tracking-widest text-primary opacity-70">Dedicated to</div>
-    <div class="text-4xl font-bold leading-tight">
-      Mohammad Reza<br/><span class="text-primary">Ghasemzadeh</span>
-    </div>
-    <div class="text-lg font-medium text-muted">22 years old — shot by the regime</div>
-    <div class="text-base text-muted mt-2 italic">
-      "Web in Scale" — and a massacre, in scale.
-    </div>
-    <div class="mt-4 flex items-center gap-3">
-      <img src="/massacre-qr.png" alt="Iran Monitor QR" class="w-24 h-24 rounded-lg shadow" />
-      <div class="text-xs text-muted">
-        <div class="font-mono">iranmonitor.org</div>
-        <div class="mt-1 opacity-70">Scan to learn more</div>
+<div class="grid grid-cols-2 gap-12 items-center px-6">
+
+  <div class="flex justify-center">
+    <div class="relative">
+      <img src="/mohammadreza.jpg" alt="Mohammad Reza Ghasemzadeh" class="w-56 h-56 rounded-2xl object-cover shadow-2xl border-4 border-orange-500/40" />
+      <div class="absolute -bottom-3 left-0 right-0 text-center">
+        <span class="bg-orange-600 text-white text-xs font-bold px-3 py-1 rounded-full">22 years old</span>
       </div>
     </div>
   </div>
-  <div class="flex justify-center">
-    <img src="/mohammadreza.jpg" alt="Mohammad Reza Ghasemzadeh" class="w-64 h-64 rounded-2xl object-cover shadow-2xl border-4 border-primary/30" />
+
+  <div class="space-y-4">
+    <div class="text-xs font-bold uppercase tracking-widest text-primary opacity-70">Dedicated to</div>
+    <div class="text-2xl font-bold leading-tight">Mohammad Reza <span class="text-primary">Ghasemzadeh</span></div>
+    <div class="text-xs italic text-muted">"Web in Scale" — and a massacre, in scale.</div>
+
+    <div class="grid grid-cols-2 gap-3 mt-4">
+      <div class="bg-red-950/40 border border-red-800/40 rounded-xl p-3 text-center">
+        <div class="text-2xl font-bold text-red-400">60,522+</div>
+        <div class="text-xs text-muted mt-1">Verified Killed</div>
+        <div class="text-xs text-muted opacity-60 italic">and counting</div>
+      </div>
+      <div class="bg-orange-950/30 border border-orange-800/30 rounded-xl p-3 text-center">
+        <div class="text-2xl font-bold text-orange-400">7,015+</div>
+        <div class="text-xs text-muted mt-1">Injured</div>
+      </div>
+      <div class="bg-yellow-950/30 border border-yellow-800/30 rounded-xl p-3 text-center">
+        <div class="text-2xl font-bold text-yellow-400">11,021+</div>
+        <div class="text-xs text-muted mt-1">Detained</div>
+      </div>
+      <div class="bg-gray-900/60 border border-gray-700/40 rounded-xl p-3 text-center">
+        <div class="text-2xl font-bold text-gray-300">42,486+</div>
+        <div class="text-xs text-muted mt-1">Executed*</div>
+      </div>
+    </div>
+
+    <div class="flex items-center gap-3 mt-3">
+      <img src="/massacre-qr.png" class="w-14 h-14 rounded-lg" />
+      <div class="text-xs text-muted font-mono">iranmonitor.org<br/><span class="opacity-60">Scan to learn more</span></div>
+    </div>
   </div>
+
 </div>
 
 <!--
 [2 minutes]
 
-Before I dive into the technical part, I want to take a moment.
+Before I start the technical talk, I want to take a moment to acknowledge something.
 
-We are here at a meetup called "Web in Scale". But I can't start without acknowledging what is happening "in scale" right now in Iran.
+This meetup is called "Web in Scale". But I can't begin without acknowledging a very different kind of scale happening in Iran right now.
 
-In just 4 nights of protests this winter, the Iranian regime executed between 36,500 and 90,000 people. People who went into the streets asking for freedom and basic rights.
+60,522 verified killed. 7,000+ injured. 11,000+ detained. 42,000+ executed — and these are only verified numbers. Rights groups believe the real figures are much higher.
 
-Mohammad Reza Ghasemzadeh was one of them. He was 22 years old. He got shot by the regime.
+Mohammad Reza Ghasemzadeh was 22 years old. He was shot by the regime.
 
-I dedicate this talk to him and to everyone who stood up.
+I dedicate this talk to him and to everyone who stood up for freedom.
 
-Please scan the QR code if you want to learn more about what's happening in Iran. Thank you for this moment of acknowledgment.
+If you want to learn more, please scan the QR code. I appreciate this moment.
 -->
 
 ---
