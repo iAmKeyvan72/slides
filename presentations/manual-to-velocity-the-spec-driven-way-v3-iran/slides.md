@@ -103,40 +103,43 @@ Feel free to connect with me on LinkedIn after this!
 layout: center
 ---
 
-<div class="grid grid-cols-2 gap-8 items-center px-4">
-  <div class="space-y-5">
-    <div class="text-sm font-bold uppercase tracking-widest text-primary mb-2">تقدیم می‌کنم به</div>
-    <div class="text-3xl font-bold leading-tight">
-      Mohammad Reza <span class="text-primary">Ghasemzadeh</span>
+<div class="grid grid-cols-2 gap-12 items-center px-8">
+  <div class="space-y-6">
+    <div class="text-xs font-bold uppercase tracking-widest text-primary opacity-70">Dedicated to</div>
+    <div class="text-4xl font-bold leading-tight">
+      Mohammad Reza<br/><span class="text-primary">Ghasemzadeh</span>
     </div>
-    <div class="text-base text-muted space-y-3 mt-4">
-      <p>We are here talking about <strong>"Web in Scale"</strong>.</p>
-      <p>But I cannot start without acknowledging what is happening <strong>in scale</strong> in Iran right now.</p>
-      <p>In just <strong>4 nights</strong> of protests, the Iranian regime executed between <strong>36,500 and 90,000</strong> people — including Mohammad Reza Ghasemzadeh.</p>
-      <p>This talk is dedicated to him, and to all those who gave their lives for freedom.</p>
+    <div class="text-lg font-medium text-muted">22 years old — shot by the regime</div>
+    <div class="text-base text-muted mt-2 italic">
+      "Web in Scale" — and a massacre, in scale.
+    </div>
+    <div class="mt-4 flex items-center gap-3">
+      <img src="/massacre-qr.png" alt="Iran Monitor QR" class="w-24 h-24 rounded-lg shadow" />
+      <div class="text-xs text-muted">
+        <div class="font-mono">iranmonitor.org</div>
+        <div class="mt-1 opacity-70">Scan to learn more</div>
+      </div>
     </div>
   </div>
-  <div class="flex flex-col items-center justify-center p-6 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50/50 dark:bg-gray-900/40">
-    <img src="/massacre-qr.png" alt="Iran Monitor QR" class="w-44 h-44 rounded-lg shadow-lg" />
-    <div class="mt-4 text-sm font-mono text-muted text-center">Scan to learn what's happening</div>
-    <div class="text-xs text-primary mt-1">iranmonitor.org</div>
+  <div class="flex justify-center">
+    <img src="/mohammadreza.jpg" alt="Mohammad Reza Ghasemzadeh" class="w-64 h-64 rounded-2xl object-cover shadow-2xl border-4 border-primary/30" />
   </div>
 </div>
 
 <!--
 [2 minutes]
 
-Before I begin the technical talk, I want to take a moment.
+Before I dive into the technical part, I want to take a moment.
 
-We're here talking about "Web in Scale" — but in Iran, the scale we're dealing with is a massacre.
+We are here at a meetup called "Web in Scale". But I can't start without acknowledging what is happening "in scale" right now in Iran.
 
-In just 4 nights this past winter, the regime killed between 36,500 and 90,000 people who went to the streets to protest for basic rights.
+In just 4 nights of protests this winter, the Iranian regime executed between 36,500 and 90,000 people. People who went into the streets asking for freedom and basic rights.
 
-Mohammad Reza Ghasemzadeh was one of them.
+Mohammad Reza Ghasemzadeh was one of them. He was 22 years old. He got shot by the regime.
 
-I dedicate this talk to him and to everyone who stood up for freedom in Iran.
+I dedicate this talk to him and to everyone who stood up.
 
-Please scan the QR code if you want to learn more. Thank you for this moment.
+Please scan the QR code if you want to learn more about what's happening in Iran. Thank you for this moment of acknowledgment.
 -->
 
 ---
