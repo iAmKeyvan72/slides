@@ -103,45 +103,45 @@ Feel free to connect with me on LinkedIn after this!
 layout: center
 ---
 
-<div class="grid grid-cols-2 gap-12 items-center px-6">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; padding: 0 1.5rem;">
 
-  <div class="flex justify-center">
-    <div class="relative">
-      <img src="/mohammadreza.jpg" alt="Mohammad Reza Ghasemzadeh" class="w-56 h-56 rounded-2xl object-cover shadow-2xl border-4 border-orange-500/40" />
-      <div class="absolute -bottom-3 left-0 right-0 text-center">
-        <span class="bg-orange-600 text-white text-xs font-bold px-3 py-1 rounded-full">22 years old</span>
+  <div style="display: flex; justify-content: center;">
+    <div style="position: relative; display: inline-block;">
+      <img src="/mohammadreza.jpg" alt="Mohammad Reza Ghasemzadeh" style="width: 210px; height: 210px; border-radius: 16px; object-fit: cover; box-shadow: 0 20px 50px rgba(0,0,0,0.6); border: 3px solid rgba(234,88,12,0.4);" />
+      <div style="position: absolute; bottom: -12px; left: 0; right: 0; text-align: center;">
+        <span style="background: #ea580c; color: white; font-size: 11px; font-weight: 700; padding: 3px 12px; border-radius: 999px; white-space: nowrap;">22 years old</span>
       </div>
     </div>
   </div>
 
-  <div class="space-y-4">
-    <div class="text-xs font-bold uppercase tracking-widest text-primary opacity-70">Dedicated to</div>
-    <div class="text-2xl font-bold leading-tight">Mohammad Reza <span class="text-primary">Ghasemzadeh</span></div>
-    <div class="text-xs italic text-muted">"Web in Scale" — and a massacre, in scale.</div>
+  <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+    <div style="font-size: 10px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: #ea580c;">Dedicated to</div>
+    <div style="font-size: 1.5rem; font-weight: 800; line-height: 1.2;">Mohammad Reza <span style="color: #ea580c;">Ghasemzadeh</span></div>
+    <div style="font-size: 0.75rem; font-style: italic; opacity: 0.5;">"Web in Scale" — and a massacre, in scale.</div>
 
-    <div class="grid grid-cols-2 gap-3 mt-4">
-      <div class="bg-red-950/40 border border-red-800/40 rounded-xl p-3 text-center">
-        <div class="text-2xl font-bold text-red-400">60,522+</div>
-        <div class="text-xs text-muted mt-1">Verified Killed</div>
-        <div class="text-xs text-muted opacity-60 italic">and counting</div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px;">
+      <div style="background: rgba(100,0,0,0.3); border: 1px solid rgba(200,50,50,0.25); border-radius: 12px; padding: 10px; text-align: center;">
+        <div style="font-size: 1.4rem; font-weight: 800; color: #f87171;">60,522+</div>
+        <div style="font-size: 10px; opacity: 0.65; margin-top: 2px;">Verified Killed</div>
+        <div style="font-size: 9px; opacity: 0.4; font-style: italic;">and counting</div>
       </div>
-      <div class="bg-orange-950/30 border border-orange-800/30 rounded-xl p-3 text-center">
-        <div class="text-2xl font-bold text-orange-400">7,015+</div>
-        <div class="text-xs text-muted mt-1">Injured</div>
+      <div style="background: rgba(100,50,0,0.25); border: 1px solid rgba(200,120,30,0.25); border-radius: 12px; padding: 10px; text-align: center;">
+        <div style="font-size: 1.4rem; font-weight: 800; color: #fb923c;">7,015+</div>
+        <div style="font-size: 10px; opacity: 0.65; margin-top: 2px;">Injured</div>
       </div>
-      <div class="bg-yellow-950/30 border border-yellow-800/30 rounded-xl p-3 text-center">
-        <div class="text-2xl font-bold text-yellow-400">11,021+</div>
-        <div class="text-xs text-muted mt-1">Detained</div>
+      <div style="background: rgba(80,70,0,0.2); border: 1px solid rgba(200,180,30,0.25); border-radius: 12px; padding: 10px; text-align: center;">
+        <div style="font-size: 1.4rem; font-weight: 800; color: #fbbf24;">11,021+</div>
+        <div style="font-size: 10px; opacity: 0.65; margin-top: 2px;">Detained</div>
       </div>
-      <div class="bg-gray-900/60 border border-gray-700/40 rounded-xl p-3 text-center">
-        <div class="text-2xl font-bold text-gray-300">42,486+</div>
-        <div class="text-xs text-muted mt-1">Executed*</div>
+      <div style="background: rgba(30,30,30,0.5); border: 1px solid rgba(120,120,120,0.25); border-radius: 12px; padding: 10px; text-align: center;">
+        <div style="font-size: 1.4rem; font-weight: 800; color: #d4d4d4;">42,486+</div>
+        <div style="font-size: 10px; opacity: 0.65; margin-top: 2px;">Executed*</div>
       </div>
     </div>
 
-    <div class="flex items-center gap-3 mt-3">
-      <img src="/massacre-qr.png" class="w-14 h-14 rounded-lg" />
-      <div class="text-xs text-muted font-mono">iranmonitor.org<br/><span class="opacity-60">Scan to learn more</span></div>
+    <div style="display: flex; align-items: center; gap: 10px; margin-top: 8px;">
+      <img src="/massacre-qr.png" style="width: 48px; height: 48px; border-radius: 6px;" />
+      <div style="font-size: 10px; opacity: 0.55; font-family: monospace; line-height: 1.6;">iranmonitor.org<br/>Scan to learn more</div>
     </div>
   </div>
 
