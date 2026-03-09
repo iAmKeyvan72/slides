@@ -1674,7 +1674,7 @@ layout: statement
   
   <div class="callout callout-warning">
     <h3 class="flex items-center gap-2 mb-2 text-xl font-bold text-orange-700 dark:text-orange-400">📰 Defy the Censorship</h3>
-    <p class="text-sm">The regime weaponizes silence. Break it. Look past the state media machine, seek out independent human rights defenders, and amplify the reality on the ground.</p>
+    <p class="text-sm">Don't only rely on the news. Ask Iranians directly about the real events happening on the ground.</p>
   </div>
 
   <div class="callout callout-success">
