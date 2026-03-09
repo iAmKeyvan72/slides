@@ -1,0 +1,15 @@
+/* Iran Flag on all slides for V3 */
+.slidev-layout::before {
+  content: "";
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+  width: 42px;
+  height: 26px;
+  background-image: url('/iran-flag.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1000;
+  opacity: 0.85;
+}

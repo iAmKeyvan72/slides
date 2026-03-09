@@ -1564,6 +1564,75 @@ Once you see it work once, you'll never want to go back to manual work!
 
 ---
 layout: center
+---
+
+# Embracing Hope: Nowruz 🌸
+
+<div class="grid grid-cols-2 gap-8 mt-12 items-center">
+  <div class="space-y-6">
+    <div class="text-2xl font-bold leading-relaxed">
+      Iran is not just about the sadness you see in the news.<br/>
+      It is also about <span class="text-primary">starting a new chapter.</span>
+    </div>
+    <div class="text-lg text-muted">
+      We are just 9 days away from <strong>Nowruz</strong>, the Iranian New Year! We celebrate it to honor the resilience of our people and remember all those who gave their lives for our homeland.
+    </div>
+  </div>
+  <div class="flex flex-col items-center justify-center bg-gray-50/5 dark:bg-gray-900/40 p-6 rounded-xl border border-gray-200 dark:border-gray-800">
+    <img src="/nowruz-qr.png" alt="QR Code to Nowruz Info" class="w-48 h-48 rounded-lg shadow-lg" />
+    <span class="mt-4 text-sm font-mono text-muted">Scan to discover Nowruz</span>
+    <span class="text-xs text-primary mt-1">en.wikipedia.org/wiki/Nowruz</span>
+  </div>
+</div>
+
+<!--
+[2 minutes]
+
+Transition from the technical talk to the cultural/hopeful message.
+Talk about how Iran is about new beginnings and hope.
+Mention that Nowruz is coming in 9 days.
+Explain that Iranians celebrate it even in hard times to honor those who died for the homeland.
+-->
+
+---
+layout: statement
+---
+
+# Actions You Can Take 🤝
+
+<div class="grid grid-cols-2 gap-x-12 gap-y-8 mt-12 text-left px-12">
+  <div class="callout callout-info">
+    <h3 class="flex items-center gap-2 mb-2 text-xl font-bold text-blue-700 dark:text-blue-400">🗣 Ask Your Colleagues</h3>
+    <p class="text-sm">Reach out to your Iranian friends and colleagues. Ask them about Iran.</p>
+  </div>
+  
+  <div class="callout callout-warning">
+    <h3 class="flex items-center gap-2 mb-2 text-xl font-bold text-orange-700 dark:text-orange-400">📰 Verify the News</h3>
+    <p class="text-sm">Don't just rely on censored, third-hand news sources. Dig deeper into what's happening.</p>
+  </div>
+
+  <div class="callout callout-success">
+    <h3 class="flex items-center gap-2 mb-2 text-xl font-bold text-green-700 dark:text-green-400">🌍 Step Up for Humanity</h3>
+    <p class="text-sm">Stand up for kindness and humanity, no matter where injustice happens.</p>
+  </div>
+
+  <div class="callout">
+    <h3 class="flex items-center gap-2 mb-2 text-xl font-bold">🌸 Learn About Our Culture</h3>
+    <p class="text-sm">Take a moment to read about Nowruz and the rich, resilient culture of Iran.</p>
+  </div>
+</div>
+
+<!--
+[1.5 minutes]
+
+Provide actionable steps for the audience.
+Encourage them to check on Iranian colleagues.
+Warn them about censored news sources.
+End on a note of humanity and discovering the culture.
+-->
+
+---
+layout: center
 class: text-center
 ---
 
