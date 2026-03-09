@@ -101,6 +101,46 @@ Feel free to connect with me on LinkedIn after this!
 
 ---
 layout: center
+---
+
+<div class="grid grid-cols-2 gap-8 items-center px-4">
+  <div class="space-y-5">
+    <div class="text-sm font-bold uppercase tracking-widest text-primary mb-2">تقدیم می‌کنم به</div>
+    <div class="text-3xl font-bold leading-tight">
+      Mohammad Reza <span class="text-primary">Ghasemzadeh</span>
+    </div>
+    <div class="text-base text-muted space-y-3 mt-4">
+      <p>We are here talking about <strong>"Web in Scale"</strong>.</p>
+      <p>But I cannot start without acknowledging what is happening <strong>in scale</strong> in Iran right now.</p>
+      <p>In just <strong>4 nights</strong> of protests, the Iranian regime executed between <strong>36,500 and 90,000</strong> people — including Mohammad Reza Ghasemzadeh.</p>
+      <p>This talk is dedicated to him, and to all those who gave their lives for freedom.</p>
+    </div>
+  </div>
+  <div class="flex flex-col items-center justify-center p-6 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50/50 dark:bg-gray-900/40">
+    <img src="/massacre-qr.png" alt="Iran Monitor QR" class="w-44 h-44 rounded-lg shadow-lg" />
+    <div class="mt-4 text-sm font-mono text-muted text-center">Scan to learn what's happening</div>
+    <div class="text-xs text-primary mt-1">iranmonitor.org</div>
+  </div>
+</div>
+
+<!--
+[2 minutes]
+
+Before I begin the technical talk, I want to take a moment.
+
+We're here talking about "Web in Scale" — but in Iran, the scale we're dealing with is a massacre.
+
+In just 4 nights this past winter, the regime killed between 36,500 and 90,000 people who went to the streets to protest for basic rights.
+
+Mohammad Reza Ghasemzadeh was one of them.
+
+I dedicate this talk to him and to everyone who stood up for freedom in Iran.
+
+Please scan the QR code if you want to learn more. Thank you for this moment.
+-->
+
+---
+layout: center
 class: text-center
 ---
 
