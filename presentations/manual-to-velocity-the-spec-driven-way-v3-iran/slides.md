@@ -1,4 +1,41 @@
----
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center;padding:0 1.5rem;">
+  <div style="display:flex;justify-content:center;">
+    <div style="position:relative;display:inline-block;">
+      <img src="/mohammadreza.jpg" alt="Mohammad Reza Ghasemzadeh" style="width:210px;height:210px;border-radius:16px;object-fit:cover;box-shadow:0 20px 50px rgba(0,0,0,0.6);border:3px solid rgba(234,88,12,0.4);" />
+      <div style="position:absolute;bottom:-12px;left:0;right:0;text-align:center;">
+        <span style="background:#ea580c;color:white;font-size:11px;font-weight:700;padding:3px 12px;border-radius:999px;white-space:nowrap;">22 years old</span>
+      </div>
+    </div>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:0.75rem;">
+    <div style="font-size:10px;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:#ea580c;">Dedicated to</div>
+    <div style="font-size:1.5rem;font-weight:800;line-height:1.2;">Mohammad Reza <span style="color:#ea580c;">Ghasemzadeh</span></div>
+    <div style="font-size:0.75rem;font-style:italic;opacity:0.5;">"Web in Scale" — and a massacre, in scale.</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px;">
+      <div style="background:rgba(100,0,0,0.3);border:1px solid rgba(200,50,50,0.25);border-radius:12px;padding:10px;text-align:center;">
+        <div style="font-size:1.4rem;font-weight:800;color:#f87171;">60,522+</div>
+        <div style="font-size:10px;opacity:0.65;margin-top:2px;">Verified Killed</div>
+        <div style="font-size:9px;opacity:0.4;font-style:italic;">and counting</div>
+      </div>
+      <div style="background:rgba(100,50,0,0.25);border:1px solid rgba(200,120,30,0.25);border-radius:12px;padding:10px;text-align:center;">
+        <div style="font-size:1.4rem;font-weight:800;color:#fb923c;">7,015+</div>
+        <div style="font-size:10px;opacity:0.65;margin-top:2px;">Injured</div>
+      </div>
+      <div style="background:rgba(80,70,0,0.2);border:1px solid rgba(200,180,30,0.25);border-radius:12px;padding:10px;text-align:center;">
+        <div style="font-size:1.4rem;font-weight:800;color:#fbbf24;">11,021+</div>
+        <div style="font-size:10px;opacity:0.65;margin-top:2px;">Detained</div>
+      </div>
+      <div style="background:rgba(30,30,30,0.5);border:1px solid rgba(120,120,120,0.25);border-radius:12px;padding:10px;text-align:center;">
+        <div style="font-size:1.4rem;font-weight:800;color:#d4d4d4;">42,486+</div>
+        <div style="font-size:10px;opacity:0.65;margin-top:2px;">Executed*</div>
+      </div>
+    </div>
+    <div style="display:flex;align-items:center;gap:10px;margin-top:8px;">
+      <img src="/massacre-qr.png" style="width:48px;height:48px;border-radius:6px;" />
+      <div style="font-size:10px;opacity:0.55;font-family:monospace;line-height:1.6;">iranmonitor.org<br/>Scan to learn more</div>
+    </div>
+  </div>
+</div>---
 theme: default
 title: "From Manual to Velocity: The Spec-Driven Way"
 info: |
