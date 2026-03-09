@@ -1576,36 +1576,19 @@ layout: center
     </div>
   </div>
   <div style="display:flex;flex-direction:column;gap:0.75rem;">
-    <div style="font-size:10px;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:#ea580c;">2025-2026 Anti-Regime</div>
-    <div style="font-size:1.5rem;font-weight:800;line-height:1.2;">The Current <span style="color:#ea580c;">Uprising</span></div>
-    <div style="font-size:0.65rem;opacity:0.75;line-height:1.4;">
-      <p style="margin-bottom:2px;"><strong>Spark:</strong> Late-2025 economic flashpoint escalated into widespread anti-government demonstrations calling for the removal of ruling clerics.</p>
-      <p style="margin-bottom:2px;"><strong>Response:</strong> Authorities responded with lethal force, internet shutdowns, and mass detentions.</p>
-      <p style="margin-bottom:4px;"><strong>Aftermath:</strong> Sweeping arrest campaigns, while the UN Human Rights Council moved to extend international documentation of abuses.</p>
-      <p style="font-size:0.6rem;text-transform:uppercase;color:#ea580c;font-weight:700;letter-spacing:0.1em;margin-top:0.5rem;">Dedicated to Mohammad Reza Ghasemzadeh</p>
-    </div>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px;">
-      <div style="background:rgba(100,0,0,0.3);border:1px solid rgba(200,50,50,0.25);border-radius:12px;padding:10px;text-align:center;">
-        <div style="font-size:1.4rem;font-weight:800;color:#f87171;">60,522+</div>
-        <div style="font-size:10px;opacity:0.65;margin-top:2px;">Killed</div>
-        <div style="font-size:9px;opacity:0.4;font-style:italic;">and counting</div>
-      </div>
-      <div style="background:rgba(100,50,0,0.25);border:1px solid rgba(200,120,30,0.25);border-radius:12px;padding:10px;text-align:center;">
-        <div style="font-size:1.4rem;font-weight:800;color:#fb923c;">7,015+</div>
-        <div style="font-size:10px;opacity:0.65;margin-top:2px;">Injured</div>
-      </div>
-      <div style="background:rgba(80,70,0,0.2);border:1px solid rgba(200,180,30,0.25);border-radius:12px;padding:10px;text-align:center;">
-        <div style="font-size:1.4rem;font-weight:800;color:#fbbf24;">11,021+</div>
-        <div style="font-size:10px;opacity:0.65;margin-top:2px;">Detained</div>
-      </div>
-      <div style="background:rgba(30,30,30,0.5);border:1px solid rgba(120,120,120,0.25);border-radius:12px;padding:10px;text-align:center;">
-        <div style="font-size:1.4rem;font-weight:800;color:#d4d4d4;">42,486+</div>
-        <div style="font-size:10px;opacity:0.65;margin-top:2px;">Executed*</div>
+    <div style="font-size:10px;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:#ea580c;">Dedicated to</div>
+    <div style="font-size:1.5rem;font-weight:800;line-height:1.2;">Mohammad Reza <span style="color:#ea580c;">Ghasemzadeh</span></div>
+    <div style="font-size:0.75rem;font-style:italic;opacity:0.5;">"Web in Scale" — and a massacre, in scale.</div>
+    <div style="display:grid;grid-template-columns:1fr;gap:8px;margin-top:16px;">
+      <div style="background:rgba(100,0,0,0.3);border:1px solid rgba(200,50,50,0.25);border-radius:12px;padding:16px;text-align:center;">
+        <div style="font-size:2rem;font-weight:800;color:#f87171;">60,522+</div>
+        <div style="font-size:14px;opacity:0.8;margin-top:4px;font-weight:bold;">Killed</div>
+        <div style="font-size:10px;opacity:0.5;font-style:italic;">and counting</div>
       </div>
     </div>
-    <div style="display:flex;align-items:center;gap:10px;margin-top:8px;">
-      <img src="/massacre-qr.png" style="width:48px;height:48px;border-radius:6px;" />
-      <div style="font-size:10px;opacity:0.55;font-family:monospace;line-height:1.6;">iranmonitor.org<br/>Scan to learn more</div>
+    <div style="display:flex;align-items:center;gap:16px;margin-top:16px;">
+      <img src="/massacre-qr.png" style="width:104px;height:104px;border-radius:8px;background:white;padding:4px;" />
+      <div style="font-size:14px;opacity:0.75;font-family:monospace;line-height:1.6;">iranmonitor.org<br/>Scan to learn more</div>
     </div>
   </div>
 </div>
@@ -1617,12 +1600,7 @@ Before we wrap up, I want to take a moment to acknowledge something.
 
 This meetup is called "Web in Scale". But I wanted to acknowledge a very different kind of scale happening in Iran right now.
 
-Between 2025 and 2026, a massive anti-regime uprising began:
-- Spark: A late-2025 economic flashpoint escalated into widespread anti-government demonstrations calling for the removal of ruling clerics.
-- Response: Authorities responded with lethal force, internet shutdowns, and mass detentions on an unprecedented scale in current reporting.
-- Aftermath: A sweeping arrest campaign targeted protesters and support networks (including medics and lawyers), while the UN Human Rights Council moved to extend international documentation of abuses.
-
-The total toll we know of: 60,522+ killed, 7,015+ injured, 11,021+ detained, 42,486+ executed. Rights groups believe the real figures are much higher.
+60,522 killed. 7,000+ injured. 11,000+ detained. 42,000+ executed — and these are only numbers. Rights groups believe the real figures are much higher.
 
 Mohammad Reza Ghasemzadeh was 22 years old. He was shot by the regime.
 
