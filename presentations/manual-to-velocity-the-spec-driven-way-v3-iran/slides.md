@@ -16,24 +16,6 @@ favicon: '/favicon.ico'
 
 <style src="../../theme/style.css"></style>
 
-<style>
-.slidev-layout::after {
-  content: "";
-  position: absolute;
-  top: 1rem;
-  right: 1.5rem;
-  width: 2.5rem;
-  height: 1.5rem;
-  background-image: url('/iran-flag.svg');
-  background-size: cover;
-  background-position: center;
-  border-radius: 2px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
-  opacity: 0.9;
-  z-index: 100;
-}
-</style>
-
 # From Manual to Velocity
 ## The Spec-Driven Way
 
