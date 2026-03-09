@@ -1808,17 +1808,6 @@ class: text-center
 
 <div class="text-center pt-12">
   <div class="text-2xl text-muted mb-16">Let's discuss!</div>
-
-  <div class="grid grid-cols-2 gap-16 max-w-2xl mx-auto">
-    <div class="flex flex-col items-center gap-3">
-      <img src="/massacre-qr.png" alt="Massacre QR" class="w-32 h-32 rounded-lg shadow-lg border border-red-500/20" />
-      <span class="text-xs font-mono opacity-60 italic">Iran Monitor</span>
-    </div>
-    <div class="flex flex-col items-center gap-3">
-      <img src="/nowruz-qr.png" alt="Nowruz QR" class="w-32 h-32 rounded-lg shadow-lg border border-orange-500/20" />
-      <span class="text-xs font-mono opacity-60 italic">Nowruz (New Year)</span>
-    </div>
-  </div>
 </div>
 
 <!--
