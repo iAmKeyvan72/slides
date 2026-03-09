@@ -1669,22 +1669,22 @@ layout: statement
 <div class="grid grid-cols-2 gap-x-12 gap-y-4 mt-6 text-left px-12">
   <div class="callout callout-info">
     <h3 class="flex items-center gap-2 mb-2 text-xl font-bold text-blue-700 dark:text-blue-400">🗣 Be Their Voice</h3>
-    <p class="text-sm">The regime thrives in darkness and internet blackouts. Be their microphone by sharing verified stories with the world.</p>
+    <p class="text-sm">The regime thrives in darkness. Be their microphone and share verified stories.</p>
   </div>
   
   <div class="callout callout-warning">
     <h3 class="flex items-center gap-2 mb-2 text-xl font-bold text-orange-700 dark:text-orange-400">📰 Defy the Censorship</h3>
-    <p class="text-sm">Don't only rely on the news. Ask Iranians directly about the real events happening on the ground.</p>
+    <p class="text-sm">Don't rely solely on the news. Ask Iranians directly about the reality on the ground.</p>
   </div>
 
   <div class="callout callout-success">
     <h3 class="flex items-center gap-2 mb-2 text-xl font-bold text-green-700 dark:text-green-400">🤝 Check On Your People</h3>
-    <p class="text-sm">Reach out to your Iranian friends and colleagues. The trauma is heavy, and simply acknowledging it means everything.</p>
+    <p class="text-sm">Reach out to your Iranian friends. Simply acknowledging their heavy trauma means everything.</p>
   </div>
 
   <div class="callout">
     <h3 class="flex items-center gap-2 mb-2 text-xl font-bold">🪻 Celebrate Nowruz</h3>
-    <p class="text-sm">Nowruz is more than a new year—it's a 3000-year-old promise that no winter lasts forever. Stand with us in celebrating the inevitable triumph of light and freedom.</p>
+    <p class="text-sm">A 3000-year-old promise that winter ends. Stand with us to celebrate light and freedom.</p>
   </div>
 </div>
 
