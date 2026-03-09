@@ -16,6 +16,24 @@ favicon: '/favicon.ico'
 
 <style src="../../theme/style.css"></style>
 
+<style>
+.slidev-layout::after {
+  content: "";
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  width: 2.5rem;
+  height: 1.5rem;
+  background-image: url('/iran-flag.svg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  opacity: 0.9;
+  z-index: 100;
+}
+</style>
+
 # From Manual to Velocity
 ## The Spec-Driven Way
 
@@ -1217,7 +1235,7 @@ class: text-center
 
 So where are we today?
 
-We're now using 6 APIs - started with 3, grown to 6 - and it's easy to add more!
+We're now using 9 APIs - started with 3, grown to 9 - and it's easy to add more!
 
 Zero manual DTOs written by hand. ZERO!
 
@@ -1625,32 +1643,50 @@ Once you see it work once, you'll never want to go back to manual work!
 layout: center
 ---
 
-# Embracing Hope: Nowruz 🌸
-
-<div class="grid grid-cols-2 gap-8 mt-12 items-center">
-  <div class="space-y-6">
-    <div class="text-2xl font-bold leading-relaxed">
-      Iran is not just about the sadness you see in the news.<br/>
-      It is also about <span class="text-primary">starting a new chapter.</span>
+<div class="grid grid-cols-2 gap-12 items-center px-12">
+  <div class="space-y-8">
+    <div class="text-xs font-bold uppercase tracking-widest text-primary opacity-70">A New Chapter</div>
+    <div class="text-5xl font-bold leading-tight">
+      Embracing Hope<br/><span class="text-primary">Nowruz</span> <span class="text-4xl">🪻</span>
     </div>
-    <div class="text-lg text-muted">
-      We are just 9 days away from <strong>Nowruz</strong>, the Iranian New Year! We celebrate it to honor the resilience of our people and remember all those who gave their lives for our homeland.
+    <div class="text-xl font-medium text-muted leading-relaxed">
+      Iran is not only about the tragedy.<br/>
+      It is about <span class="text-primary font-bold">rebirth and resilience.</span>
+    </div>
+    <div class="mt-8 flex items-center gap-4">
+      <img src="/nowruz-qr.png" alt="Nowruz QR" class="w-24 h-24 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700" />
+      <div class="text-xs text-muted">
+        <div class="font-mono">en.wikipedia.org/wiki/Nowruz</div>
+        <div class="mt-1 opacity-70">Scan to discover the celebration</div>
+      </div>
     </div>
   </div>
-  <div class="flex flex-col items-center justify-center bg-gray-50/5 dark:bg-gray-900/40 p-6 rounded-xl border border-gray-200 dark:border-gray-800">
-    <img src="/nowruz-qr.png" alt="QR Code to Nowruz Info" class="w-48 h-48 rounded-lg shadow-lg" />
-    <span class="mt-4 text-sm font-mono text-muted">Scan to discover Nowruz</span>
-    <span class="text-xs text-primary mt-1">en.wikipedia.org/wiki/Nowruz</span>
+  <div class="flex justify-center">
+    <div class="relative">
+      <img src="/haft-sin.jpg" alt="Haft-Sin" class="w-80 h-80 rounded-2xl shadow-2xl border-4 border-primary/20 object-cover" />
+      <div class="absolute -bottom-4 right-4 bg-primary text-white p-3 rounded-xl shadow-lg transform rotate-3">
+        <span class="text-3xl">🪻</span>
+      </div>
+    </div>
   </div>
 </div>
 
 <!--
 [2 minutes]
 
-Transition from the technical talk to the cultural/hopeful message.
-Talk about how Iran is about new beginnings and hope.
-Mention that Nowruz is coming in 9 days.
-Explain that Iranians celebrate it even in hard times to honor those who died for the homeland.
+Now, after all the technical talk, I want to end on a different note.
+
+Iran is currently going through a lot of pain, which we talked about at the beginning. But the story of Iran is not just about the tragedy you see in the news.
+
+It's also about hope, rebirth, and incredible resilience.
+
+We are actually just 9 days away from Nowruz — the Iranian New Year. It's the spring equinox, the exact moment the season changes.
+
+We celebrate it even in the darkest times because it represents our spirit: the ability to start a new chapter, no matter how hard the winter was.
+
+We celebrate to honor our culture, our future, and to remember everyone who gave their lives for a free homeland.
+
+Please scan the QR code if you'd like to learn more about this beautiful tradition.
 -->
 
 ---
@@ -1676,7 +1712,7 @@ layout: statement
   </div>
 
   <div class="callout">
-    <h3 class="flex items-center gap-2 mb-2 text-xl font-bold">🌸 Learn About Our Culture</h3>
+    <h3 class="flex items-center gap-2 mb-2 text-xl font-bold">🪻 Learn About Our Culture</h3>
     <p class="text-sm">Take a moment to read about Nowruz and the rich, resilient culture of Iran.</p>
   </div>
 </div>
@@ -1799,10 +1835,19 @@ class: text-center
 
 # Questions? 💬
 
-<div class="text-center pt-16">
-<div class="text-3xl text-muted">
-  Let's discuss!
-</div>
+<div class="text-center pt-12">
+  <div class="text-2xl text-muted mb-16">Let's discuss!</div>
+
+  <div class="grid grid-cols-2 gap-16 max-w-2xl mx-auto">
+    <div class="flex flex-col items-center gap-3">
+      <img src="/massacre-qr.png" alt="Massacre QR" class="w-32 h-32 rounded-lg shadow-lg border border-red-500/20" />
+      <span class="text-xs font-mono opacity-60 italic">Iran Monitor</span>
+    </div>
+    <div class="flex flex-col items-center gap-3">
+      <img src="/nowruz-qr.png" alt="Nowruz QR" class="w-32 h-32 rounded-lg shadow-lg border border-orange-500/20" />
+      <span class="text-xs font-mono opacity-60 italic">Nowruz (New Year)</span>
+    </div>
+  </div>
 </div>
 
 <!--
