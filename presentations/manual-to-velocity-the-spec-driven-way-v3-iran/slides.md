@@ -1667,22 +1667,22 @@ layout: statement
 # Actions You Can Take 🤝
 
 <div class="grid grid-cols-2 gap-x-12 gap-y-4 mt-6 text-left px-12">
-  <div class="callout callout-info">
+  <div class="callout callout-info !py-3 !px-4">
     <h3 class="flex items-center gap-2 mb-2 text-xl font-bold text-blue-700 dark:text-blue-400">🗣 Be Their Voice</h3>
     <p class="text-sm">The regime thrives in darkness. Be their microphone and share verified stories.</p>
   </div>
   
-  <div class="callout callout-warning">
+  <div class="callout callout-warning !py-3 !px-4">
     <h3 class="flex items-center gap-2 mb-2 text-xl font-bold text-orange-700 dark:text-orange-400">📰 Defy the Censorship</h3>
     <p class="text-sm">Don't rely solely on the news. Ask Iranians directly about the reality on the ground.</p>
   </div>
 
-  <div class="callout callout-success">
+  <div class="callout callout-success !py-3 !px-4">
     <h3 class="flex items-center gap-2 mb-2 text-xl font-bold text-green-700 dark:text-green-400">🤝 Check On Your People</h3>
     <p class="text-sm">Reach out to your Iranian friends. Simply acknowledging their heavy trauma means everything.</p>
   </div>
 
-  <div class="callout">
+  <div class="callout !py-3 !px-4">
     <h3 class="flex items-center gap-2 mb-2 text-xl font-bold">🪻 Celebrate Nowruz</h3>
     <p class="text-sm">A 3000-year-old promise that winter ends. Stand with us to celebrate light and freedom.</p>
   </div>
