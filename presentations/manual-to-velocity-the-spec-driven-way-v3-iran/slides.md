@@ -1643,17 +1643,15 @@ layout: center
 </div>
 
 <!--
-[2 minutes]
+[1 minute]
 
-Now, after all the technical talk, I want to end on a different note.
+But the story of Iran is not just about the tragedy you see in the news.
 
-Iran is currently going through a lot of pain, which we talked about at the beginning. But the story of Iran is not just about the tragedy you see in the news.
-
-It's also about hope, rebirth, and incredible resilience.
+It is also about hope, rebirth, and incredible resilience.
 
 We are actually just 9 days away from Nowruz — the Iranian New Year. It's the spring equinox, the exact moment the season changes.
 
-We celebrate it even in the darkest times because it represents our spirit: the ability to start a new chapter, no matter how hard the winter was.
+We celebrate it even in the darkest times because it represents our spirit: the ability to start a new chapter. It's a 3000-year-old promise that no winter lasts forever.
 
 We celebrate to honor our culture, our future, and to remember everyone who gave their lives for a free homeland.
 
@@ -1691,10 +1689,14 @@ layout: statement
 <!--
 [1.5 minutes]
 
-Provide actionable steps for the audience.
-Encourage them to check on Iranian colleagues.
-Warn them about censored news sources.
-End on a note of humanity and discovering the culture.
+So, what can you do?
+
+1. Be their voice. The regime thrives in darkness, so share verified stories.
+2. Defy the censorship. Ask Iranians directly instead of relying solely on the news.
+3. Check on your people. Reach out to your Iranian friends—acknowledging the trauma helps.
+4. Celebrate Nowruz with us. Stand with us to celebrate light and freedom.
+
+Every small action counts.
 -->
 
 ---
