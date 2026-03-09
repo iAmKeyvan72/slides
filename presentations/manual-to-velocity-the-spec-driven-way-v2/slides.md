@@ -822,9 +822,7 @@ components:
 ```
 
   </div>
-  <div class="text-xs text-muted italic mt-1 text-center">
-    💡 Demo: Open a real spec file during presentation
-  </div>
+  
 </div>
 
 </div>
