@@ -1666,7 +1666,7 @@ layout: statement
 
 # Actions You Can Take 🤝
 
-<div class="grid grid-cols-2 gap-x-12 gap-y-4 mt-6 text-left px-12">
+<div class="grid grid-cols-2 gap-x-12 gap-y-0 mt-6 text-left px-12">
   <div class="callout callout-info !py-3 !px-4">
     <h3 class="flex items-center gap-2 mb-2 text-xl font-bold text-blue-700 dark:text-blue-400">🗣 Be Their Voice</h3>
     <p class="text-sm">The regime thrives in darkness. Be their microphone and share verified stories.</p>
