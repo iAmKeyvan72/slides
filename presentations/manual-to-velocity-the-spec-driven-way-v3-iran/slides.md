@@ -1684,7 +1684,7 @@ layout: statement
 
   <div class="callout">
     <h3 class="flex items-center gap-2 mb-2 text-xl font-bold">🪻 Celebrate Nowruz</h3>
-    <p class="text-sm">Stand with us in celebration. Because joy is an act of resistance, and spring always arrives—no matter how harsh the winter.</p>
+    <p class="text-sm">Nowruz is more than a new year—it's a 3000-year-old promise that no winter lasts forever. Stand with us in celebrating the inevitable triumph of light and freedom.</p>
   </div>
 </div>
 
