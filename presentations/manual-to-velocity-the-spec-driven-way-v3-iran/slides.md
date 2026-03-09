@@ -1666,25 +1666,25 @@ layout: statement
 
 # Actions You Can Take 🤝
 
-<div class="grid grid-cols-2 gap-x-12 gap-y-8 mt-12 text-left px-12">
+<div class="grid grid-cols-2 gap-x-12 gap-y-4 mt-6 text-left px-12">
   <div class="callout callout-info">
-    <h3 class="flex items-center gap-2 mb-2 text-xl font-bold text-blue-700 dark:text-blue-400">🗣 Ask Your Colleagues</h3>
-    <p class="text-sm">Reach out to your Iranian friends and colleagues. Ask them about Iran.</p>
+    <h3 class="flex items-center gap-2 mb-2 text-xl font-bold text-blue-700 dark:text-blue-400">🗣 Be Their Voice</h3>
+    <p class="text-sm">The regime thrives in darkness and internet blackouts. Be their microphone by sharing verified stories with the world.</p>
   </div>
   
   <div class="callout callout-warning">
-    <h3 class="flex items-center gap-2 mb-2 text-xl font-bold text-orange-700 dark:text-orange-400">📰 Verify the News</h3>
-    <p class="text-sm">Don't just rely on censored, third-hand news sources. Dig deeper into what's happening.</p>
+    <h3 class="flex items-center gap-2 mb-2 text-xl font-bold text-orange-700 dark:text-orange-400">📰 Defy the Censorship</h3>
+    <p class="text-sm">Don't rely on state-sponsored media. Follow independent human rights organizations and amplify the truth.</p>
   </div>
 
   <div class="callout callout-success">
-    <h3 class="flex items-center gap-2 mb-2 text-xl font-bold text-green-700 dark:text-green-400">🌍 Step Up for Humanity</h3>
-    <p class="text-sm">Stand up for kindness and humanity, no matter where injustice happens.</p>
+    <h3 class="flex items-center gap-2 mb-2 text-xl font-bold text-green-700 dark:text-green-400">🤝 Check On Your People</h3>
+    <p class="text-sm">Reach out to your Iranian friends and colleagues. The trauma is heavy, and simply acknowledging it means everything.</p>
   </div>
 
   <div class="callout">
-    <h3 class="flex items-center gap-2 mb-2 text-xl font-bold">🪻 Learn About Our Culture</h3>
-    <p class="text-sm">Take a moment to read about Nowruz and the rich, resilient culture of Iran.</p>
+    <h3 class="flex items-center gap-2 mb-2 text-xl font-bold">🪻 Celebrate Nowruz</h3>
+    <p class="text-sm">Wish them "Nowruz Pirooz". Let the resilience of the Iranian New Year remind us that light always outlasts the darkest winter.</p>
   </div>
 </div>
 
