@@ -1674,7 +1674,7 @@ layout: statement
   
   <div class="callout callout-warning">
     <h3 class="flex items-center gap-2 mb-2 text-xl font-bold text-orange-700 dark:text-orange-400">📰 Defy the Censorship</h3>
-    <p class="text-sm">Don't rely on state-sponsored media. Follow independent human rights organizations and amplify the truth.</p>
+    <p class="text-sm">The regime weaponizes silence. Break it. Look past the state media machine, seek out independent human rights defenders, and amplify the reality on the ground.</p>
   </div>
 
   <div class="callout callout-success">
@@ -1684,7 +1684,7 @@ layout: statement
 
   <div class="callout">
     <h3 class="flex items-center gap-2 mb-2 text-xl font-bold">🪻 Celebrate Nowruz</h3>
-    <p class="text-sm">Wish them "Nowruz Pirooz". Let the resilience of the Iranian New Year remind us that light always outlasts the darkest winter.</p>
+    <p class="text-sm">Stand with us in celebration. Because joy is an act of resistance, and spring always arrives—no matter how harsh the winter.</p>
   </div>
 </div>
 
