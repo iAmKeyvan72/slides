@@ -1195,7 +1195,7 @@ class: text-center
 <div class="grid grid-cols-2 gap-8 mt-12 max-w-4xl mx-auto">
 
 <div class="text-center">
-  <div class="text-6xl font-bold gradient-text mb-4">6</div>
+  <div class="text-6xl font-bold gradient-text mb-4">9</div>
   <div class="text-xl text-muted">APIs today</div>
 </div>
 
