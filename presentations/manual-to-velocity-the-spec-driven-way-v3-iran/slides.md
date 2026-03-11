@@ -1627,7 +1627,7 @@ layout: center
     <div class="mt-8 flex items-center gap-4">
       <img src="/nowruz-qr.png" alt="Nowruz QR" class="w-24 h-24 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700" />
       <div class="text-xs text-muted">
-        <div class="font-mono">en.wikipedia.org/wiki/Nowruz</div>
+        <div class="font-mono">nowruz.wiki</div>
         <div class="mt-1 opacity-70">Scan to discover the celebration</div>
       </div>
     </div>
@@ -1664,24 +1664,25 @@ layout: statement
 
 # Actions You Can Take 🤝
 
-<div class="grid grid-cols-2 gap-x-12 gap-y-0 mt-6 text-left px-12">
-  <div class="callout callout-info !py-3 !px-4">
-    <h3 class="flex items-center gap-2 mb-2 text-xl font-bold text-blue-700 dark:text-blue-400">🗣 Be Their Voice</h3>
+<div class="grid grid-cols-2 gap-x-12 gap-y-0 mt-4 text-left px-12">
+  <div class="callout callout-info !py-2 !px-4">
+    <h3 class="flex items-center gap-2 mb-1 text-xl font-bold text-blue-700 dark:text-blue-400">🗣 Be Their Voice</h3>
     <p class="text-sm">The regime thrives in darkness. Be their microphone and share verified stories.</p>
+    <p class="text-sm mt-1 font-bold text-red-600 dark:text-red-400">⚠️ The regime cut off the internet for over 272 hours now!</p>
   </div>
   
-  <div class="callout callout-warning !py-3 !px-4">
-    <h3 class="flex items-center gap-2 mb-2 text-xl font-bold text-orange-700 dark:text-orange-400">📰 Defy the Censorship</h3>
+  <div class="callout callout-warning !py-2 !px-4">
+    <h3 class="flex items-center gap-2 mb-1 text-xl font-bold text-orange-700 dark:text-orange-400">📰 Defy the Censorship</h3>
     <p class="text-sm">Don't rely solely on the news. Ask Iranians directly about the reality on the ground.</p>
   </div>
 
-  <div class="callout callout-success !py-3 !px-4">
-    <h3 class="flex items-center gap-2 mb-2 text-xl font-bold text-green-700 dark:text-green-400">🤝 Check On Your People</h3>
+  <div class="callout callout-success !py-2 !px-4">
+    <h3 class="flex items-center gap-2 mb-1 text-xl font-bold text-green-700 dark:text-green-400">🤝 Check On Your People</h3>
     <p class="text-sm">Reach out to your Iranian friends. Simply acknowledging their heavy trauma means everything.</p>
   </div>
 
-  <div class="callout !py-3 !px-4">
-    <h3 class="flex items-center gap-2 mb-2 text-xl font-bold">🪻 Celebrate Nowruz</h3>
+  <div class="callout !py-2 !px-4">
+    <h3 class="flex items-center gap-2 mb-1 text-xl font-bold">🪻 Celebrate Nowruz</h3>
     <p class="text-sm">A 3000-year-old promise that winter ends. Stand with us to celebrate light and freedom.</p>
   </div>
 </div>
