@@ -1582,9 +1582,10 @@ layout: center
     <div style="display:grid;grid-template-columns:1fr;gap:8px;margin-top:16px;">
       <div style="background:rgba(100,0,0,0.3);border:1px solid rgba(200,50,50,0.25);border-radius:12px;padding:16px;text-align:center;">
         <div style="font-size:2rem;font-weight:800;color:#f87171;">60,522+</div>
-        <div style="font-size:14px;opacity:0.8;margin-top:4px;font-weight:bold;">Killed</div>
+        <div style="font-size:14px;opacity:0.8;margin-top:4px;font-weight:bold;">Killed by the regime</div>
         <div style="font-size:10px;opacity:0.5;font-style:italic;">and counting</div>
       </div>
+      <div style="font-size:11px;opacity:0.55;font-style:italic;text-align:center;margin-top:6px;">Only from the January 2026 protests</div>
     </div>
     <div style="display:flex;align-items:center;gap:16px;margin-top:16px;">
       <img src="/massacre-qr.png" style="width:104px;height:104px;border-radius:8px;background:white;padding:4px;" />
